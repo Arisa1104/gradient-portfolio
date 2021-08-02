@@ -17,20 +17,20 @@ export default function Home() {
     <meta name="description" content="Jane Doe is a web developer/graphic designer based in London, UK." />
     
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://site-url.com" />
+    <meta property="og:url" content="https://gradientportfolio.gatsbyjs.io/" />
     <meta property="og:title" content="Jane Doe - Web Developer | Graphic Designer" />
     <meta property="og:description" content="Jane Doe is a web developer/graphic designer based in London, UK." />
     {/* Place your Open Graph image in the static folder */}
-    <meta property="og:image" content="https://site-url.com/og.png" />
+    <meta property="og:image" content="https://gradientportfolio.gatsbyjs.io/og.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Jane Doe." />
     
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://site-url.com" />
+    <meta property="twitter:url" content="https://gradientportfolio.gatsbyjs.io/" />
     <meta property="twitter:title" content="Jane Doe - Web Developer | Graphic Designer" />
     <meta property="twitter:description" content="Jane Doe is a web developer/graphic designer based in London, UK." />
-    <meta property="twitter:image" content="https://site-url.com/og.png" />
+    <meta property="twitter:image" content="https://gradientportfolio.gatsbyjs.io/og.png" />
     <meta property="twitter:image:alt" content="Jane Doe." />
   </Helmet>
   <div className="min-h-4 bg-gradient-to-r from-pink-400 via-blue-400 to-green-400">&nbsp;</div>

@@ -6,7 +6,7 @@
 
  module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.site-url.com`,
+    siteUrl: `https://gradientportfolio.gatsbyjs.io/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
