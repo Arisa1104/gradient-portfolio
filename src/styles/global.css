@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply text-gray-700 dark:bg-gray-800 dark:text-gray-50 font-light;
+    }
+    h1 {
+        @apply text-6xl md:text-7xl mb-5 font-semibold;
+    }
+    h2 {
+        @apply text-3xl font-semibold mb-3;
+    }
+    h3 {
+        @apply text-xl font-semibold mb-3;
+    }
+    h4 {
+        @apply text-2xl;
+    }
+    h5 {
+        @apply text-xl;
+    }
+    h6 {
+        @apply text-lg;
+    }
+    ol, ul {
+        @apply list-disc list-inside py-3;
+    }
+    p {
+        @apply mb-3;
+    }
+}
+
+@layer components {
+    .btn-gradient {
+      @apply py-3 px-6 bg-gradient-to-br from-pink-400 via-blue-400 to-green-400 text-white font-semibold rounded-full hover:from-pink-500 hover:via-blue-500 hover:to-green-500;
+    }
+    .btn-small {
+      @apply py-2 px-4 bg-gradient-to-br from-pink-400 via-blue-400 to-green-400 text-white font-semibold rounded-full hover:from-pink-500 hover:via-blue-500 hover:to-green-500;
+    }
+    .gradient-text {
+        @apply bg-gradient-to-r from-pink-400 via-blue-400 to-green-400 text-transparent bg-clip-text inline-block;
+    }
+    .three-cols {
+        @apply grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-8;
+    }
+    .two-cols {
+        @apply grid grid-cols-1 md:grid-cols-2 gap-8;
+    }
+    .tag {
+        @apply bg-gray-300 text-gray-700 px-3 py-1 font-bold text-sm rounded-md flex-initial;
+    }
+    .pill {
+        @apply px-3 py-1 font-bold text-sm text-white rounded-full;
+    }
+    .web {
+        @apply bg-pink-600;
+    }
+    .design {
+        @apply bg-blue-600;
+    }
+    .year {
+        @apply font-bold text-gray-600 dark:text-gray-300 mb-6 text-sm;
+    }
+    .more {
+        @apply bg-gradient-to-br from-pink-400 via-blue-400 to-green-400 md:transform md:-skew-x-12 md:-ml-12 hidden md:block h-st; /* "More About Me" section gradient */
+    }
+
+    .client {
+        @apply bg-gradient-to-r from-pink-400 via-blue-400 to-green-400 text-transparent bg-clip-text mb-1 mt-3 text-2xl leading-tight inline-block;
+    }
+    .client a:hover {
+        @apply bg-gradient-to-r from-pink-500 via-blue-500 to-green-500 text-transparent bg-clip-text inline-block;
+    }
+  }
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.gatsby-image-wrapper {
+   position: relative;
+   z-index: 0; 
+}
+
+.Collapsible__trigger.is-open svg {
+  transform: rotate(180deg);
+}
+
+.Collapsible__trigger {
+    color: #fff;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    background-color: #c026d3; /* SEE MORE button color */
+}
+
+.Collapsible__trigger:hover {
+    background-color: #d946ef; /* SEE MORE button hover color */
+}
