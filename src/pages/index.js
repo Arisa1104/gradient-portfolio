@@ -69,8 +69,8 @@ export default function Home() {
         src="https://source.unsplash.com/m_HRfLhgABo/800x600"
         alt="Coding."
         className="rounded-lg order-1 md:order-2"
-        width="800"
-        height="600"
+        width={800}
+        height={600}
       />
     </div>
 
@@ -79,8 +79,8 @@ export default function Home() {
         src="https://source.unsplash.com/fr7SSrc43AQ/800x600"
         alt="Graphic design."
         className="rounded-lg"
-        width="800"
-        height="600"
+        width={800}
+        height={600}
       />
       <div className="m-auto">
       <h2>Graphic Design</h2>
@@ -103,8 +103,8 @@ export default function Home() {
           src="https://source.unsplash.com/zNRITe8NPqY/800x600"
           alt="Some alt text goes here."
           className="rounded-t-lg mb-5"
-          width="800"
-          height="600"
+          width={800}
+          height={600}
         />
         <div className="px-6 pt-3 py-8">
           <p><span className="web pill">Web Design/Development</span></p>
@@ -125,8 +125,8 @@ export default function Home() {
           src="https://source.unsplash.com/KiEiI2b9GkU/800x600"
           alt="Some alt text goes here."
           className="rounded-t-lg mb-5"
-          width="800"
-          height="600"
+          width={800}
+          height={600}
         />
         <div className="px-6 pt-3 py-8">
           <p><span className="web pill">Web Design/Development</span></p>
@@ -148,8 +148,8 @@ export default function Home() {
           src="https://source.unsplash.com/iXHdGk8JVYU/800x600"
           alt="Some alt text goes here."
           className="rounded-t-lg mb-5"
-          width="800"
-          height="600"
+          width={800}
+          height={600}
         />
         <div className="px-6 pt-3 py-8">
           <p><span className="design pill">Graphic Design</span></p>
@@ -170,8 +170,8 @@ export default function Home() {
           src="https://source.unsplash.com/9H0ZA1oPsYE/800x600"
           alt="Some alt text goes here."
           className="rounded-t-lg mb-5"
-          width="800"
-          height="600"
+          width={800}
+          height={600}
         />
         <div className="px-6 pt-3 py-8">
           <p><span className="web pill">Web Design/Development</span></p>
@@ -193,8 +193,8 @@ export default function Home() {
             src="https://source.unsplash.com/VMw2NdUzHKQ/800x600"
             alt="Some alt text goes here."
             className="rounded-t-lg mb-5"
-            width="800"
-            height="600"
+            width={800}
+            height={600}
           />
           <div className="px-6 pt-3 py-8">
             <p><span className="design pill">Graphic Design</span></p>
@@ -216,8 +216,8 @@ export default function Home() {
             src="https://source.unsplash.com/Epw-SqZYeyw/800x600"
             alt="Some alt text goes here."
             className="rounded-t-lg mb-5"
-            width="800"
-            height="600"
+            width={800}
+            height={600}
           />
           <div className="px-6 pt-3 py-8">
             <p><span className="design pill">Graphic Design</span></p>
